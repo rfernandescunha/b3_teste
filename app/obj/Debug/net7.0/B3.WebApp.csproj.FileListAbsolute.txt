@@ -1,0 +1,100 @@
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\B3.WebApp.csproj.AssemblyReference.cache
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\spa.proxy.json
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\B3.WebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\B3.WebApp.AssemblyInfoInputs.cache
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\B3.WebApp.AssemblyInfo.cs
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\B3.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\B3.WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\B3.WebApp.RazorAssemblyInfo.cache
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\B3.WebApp.RazorAssemblyInfo.cs
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\bin\Debug\net7.0\appsettings.json
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\bin\Debug\net7.0\spa.proxy.json
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\bin\Debug\net7.0\B3.WebApp.staticwebassets.runtime.json
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\bin\Debug\net7.0\B3.WebApp.exe
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\bin\Debug\net7.0\B3.WebApp.deps.json
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\bin\Debug\net7.0\B3.WebApp.runtimeconfig.json
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\bin\Debug\net7.0\B3.WebApp.dll
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\bin\Debug\net7.0\B3.WebApp.pdb
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\bin\Debug\net7.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\staticwebassets\msbuild.B3.WebApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\staticwebassets\msbuild.build.B3.WebApp.props
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.B3.WebApp.props
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.B3.WebApp.props
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\scopedcss\bundle\B3.WebApp.styles.css
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\B3.WebApp.csproj.Up2Date
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\B3.WebApp.dll
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\refint\B3.WebApp.dll
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\B3.WebApp.pdb
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\B3.WebApp.genruntimeconfig.cache
+C:\Users\rafa_\Downloads\DESAFIO-DO-CALCULO-DO-CDB-main\DESAFIO-DO-CALCULO-DO-CDB-main\app\obj\Debug\net7.0\ref\B3.WebApp.dll
+D:\GitHub\b3_teste\app\bin\Debug\net7.0\appsettings.Development.json
+D:\GitHub\b3_teste\app\bin\Debug\net7.0\appsettings.json
+D:\GitHub\b3_teste\app\bin\Debug\net7.0\spa.proxy.json
+D:\GitHub\b3_teste\app\bin\Debug\net7.0\B3.WebApp.staticwebassets.runtime.json
+D:\GitHub\b3_teste\app\bin\Debug\net7.0\B3.WebApp.exe
+D:\GitHub\b3_teste\app\bin\Debug\net7.0\B3.WebApp.deps.json
+D:\GitHub\b3_teste\app\bin\Debug\net7.0\B3.WebApp.runtimeconfig.json
+D:\GitHub\b3_teste\app\bin\Debug\net7.0\B3.WebApp.dll
+D:\GitHub\b3_teste\app\bin\Debug\net7.0\B3.WebApp.pdb
+D:\GitHub\b3_teste\app\bin\Debug\net7.0\Microsoft.AspNetCore.SpaProxy.dll
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\B3.WebApp.csproj.AssemblyReference.cache
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\spa.proxy.json
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\B3.WebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\B3.WebApp.AssemblyInfoInputs.cache
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\B3.WebApp.AssemblyInfo.cs
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\B3.WebApp.csproj.CoreCompileInputs.cache
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\B3.WebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\B3.WebApp.RazorAssemblyInfo.cache
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\B3.WebApp.RazorAssemblyInfo.cs
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\B3.WebApp.sourcelink.json
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\staticwebassets.build.json
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\staticwebassets.development.json
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\staticwebassets\msbuild.B3.WebApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\staticwebassets\msbuild.build.B3.WebApp.props
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.B3.WebApp.props
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.B3.WebApp.props
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\staticwebassets.pack.json
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\scopedcss\bundle\B3.WebApp.styles.css
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\B3.WebApp.csproj.Up2Date
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\B3.WebApp.dll
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\refint\B3.WebApp.dll
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\B3.WebApp.pdb
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\B3.WebApp.genruntimeconfig.cache
+D:\GitHub\b3_teste\app\obj\Debug\net7.0\ref\B3.WebApp.dll
+D:\GitHub\Nova pasta\app\bin\Debug\net7.0\appsettings.Development.json
+D:\GitHub\Nova pasta\app\bin\Debug\net7.0\appsettings.json
+D:\GitHub\Nova pasta\app\bin\Debug\net7.0\spa.proxy.json
+D:\GitHub\Nova pasta\app\bin\Debug\net7.0\B3.WebApp.staticwebassets.runtime.json
+D:\GitHub\Nova pasta\app\bin\Debug\net7.0\B3.WebApp.exe
+D:\GitHub\Nova pasta\app\bin\Debug\net7.0\B3.WebApp.deps.json
+D:\GitHub\Nova pasta\app\bin\Debug\net7.0\B3.WebApp.runtimeconfig.json
+D:\GitHub\Nova pasta\app\bin\Debug\net7.0\B3.WebApp.dll
+D:\GitHub\Nova pasta\app\bin\Debug\net7.0\B3.WebApp.pdb
+D:\GitHub\Nova pasta\app\bin\Debug\net7.0\Microsoft.AspNetCore.SpaProxy.dll
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\B3.WebApp.csproj.AssemblyReference.cache
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\spa.proxy.json
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\B3.WebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\B3.WebApp.AssemblyInfoInputs.cache
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\B3.WebApp.AssemblyInfo.cs
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\B3.WebApp.csproj.CoreCompileInputs.cache
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\B3.WebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\B3.WebApp.RazorAssemblyInfo.cache
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\B3.WebApp.RazorAssemblyInfo.cs
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\staticwebassets.build.json
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\staticwebassets.development.json
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\staticwebassets\msbuild.B3.WebApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\staticwebassets\msbuild.build.B3.WebApp.props
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.B3.WebApp.props
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.B3.WebApp.props
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\staticwebassets.pack.json
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\scopedcss\bundle\B3.WebApp.styles.css
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\B3.WebApp.csproj.Up2Date
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\B3.WebApp.dll
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\refint\B3.WebApp.dll
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\B3.WebApp.pdb
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\B3.WebApp.genruntimeconfig.cache
+D:\GitHub\Nova pasta\app\obj\Debug\net7.0\ref\B3.WebApp.dll

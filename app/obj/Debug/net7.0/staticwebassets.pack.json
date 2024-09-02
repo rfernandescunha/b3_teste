@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitHub\\Nova pasta\\app\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.B3.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.B3.WebApp.props",
+      "PackagePath": "build\\B3.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.B3.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\B3.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.B3.WebApp.props",
+      "PackagePath": "buildTransitive\\B3.WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "0oDI2OOG+G8bbl9TLILVkQ3SsfiO6E/GQgmMVpZhn10=",
+  "Source": "B3.WebApp",
+  "BasePath": "_content/B3.WebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "B3.WebApp\\wwwroot",
+      "Source": "B3.WebApp",
+      "ContentRoot": "D:\\GitHub\\Nova pasta\\app\\wwwroot\\",
+      "BasePath": "_content/B3.WebApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\GitHub\\Nova pasta\\app\\wwwroot\\favicon.ico",
+      "SourceId": "B3.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\Nova pasta\\app\\wwwroot\\",
+      "BasePath": "_content/B3.WebApp",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

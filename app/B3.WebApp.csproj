@@ -1,0 +1,330 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <SpaRoot>B3App\</SpaRoot>
+    <SpaProxyServerUrl>https://localhost:44487</SpaProxyServerUrl>
+    <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
+    <RootNamespace>B3.WebApp</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SpaProxy" Version="7.0.9" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Content Remove="$(SpaRoot)**" />
+    <None Remove="$(SpaRoot)**" />
+    <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="B3App\.angular\cache\15.2.7\angular-webpack\66fc5e8bb8de336eb07409d259539f47b8869c6a\0.pack" />
+    <None Include="B3App\.angular\cache\15.2.7\angular-webpack\66fc5e8bb8de336eb07409d259539f47b8869c6a\1.pack" />
+    <None Include="B3App\.angular\cache\15.2.7\angular-webpack\66fc5e8bb8de336eb07409d259539f47b8869c6a\2.pack" />
+    <None Include="B3App\.angular\cache\15.2.7\angular-webpack\66fc5e8bb8de336eb07409d259539f47b8869c6a\3.pack" />
+    <None Include="B3App\.angular\cache\15.2.7\angular-webpack\66fc5e8bb8de336eb07409d259539f47b8869c6a\4.pack" />
+    <None Include="B3App\.angular\cache\15.2.7\angular-webpack\66fc5e8bb8de336eb07409d259539f47b8869c6a\index.pack" />
+    <None Include="B3App\.angular\cache\15.2.7\angular-webpack\66fc5e8bb8de336eb07409d259539f47b8869c6a\index.pack.old" />
+    <None Include="B3App\.angular\cache\15.2.7\angular-webpack\fff5db639cf63f170cf3fcff1423d348d380de37\0.pack" />
+    <None Include="B3App\.angular\cache\15.2.7\angular-webpack\fff5db639cf63f170cf3fcff1423d348d380de37\index.pack" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\008583893450c80b6ee4cc18972696304dfcfc7be1ee5ec243f2db25988d110d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\00f69ca664fec6508630bbfe7b3095dee30a2abd3a04bc4ccad74b96ab6d4dec.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\012b582624d2dd4c23c02457693f04b4db36171878eaba0c3b8d5d3d5589e048.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\02161da67905c8c2970c1a1663a66d4aba6c3af3ed02d4ad9a0e826a5b139665.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\02240f3fa13dff64547e967f5dca8abe080d8688c1ed7f0522e91b611a39b18a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\033451ba4875fbd6319a1751cc259dbae889254c39bb797d7a795d5f1114042f.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\03f67e3e1ee08a2aa202139bbbba7820901e6fea57cc6df7a6abb687b865e4bf.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\04ae2679c46912e76a72babc0d838ac2cf41a877c66a425716b9dc26a7c05b4a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\067b70a034a5e50be7ae09ed569c1c28c0c0b6e731552759fd4b4c686ed7646a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\06d8cae3b01e3bcf6b78c2eec354b6475a5db0037eaba508f655bb05613c5cf4.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\08895619b9bec8e57eeb7fd34820ab2174ecde290898c87175a130219bfc074b.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\08b9b8dd6ca822466508f0020ebf858c734f99c396c9fce1c4cf1fff0b10b19d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\0ea07d1e1ef22eb048b93d066ed950db950145f3af6600eb3b7412cf9478d1f7.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\0ed903d6bfba95e3144d5ee4e7240560a363e59046745ac376c0eb0427c975ff.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\0fab8ad99f96b6ef59ace31e24f2ab968c278fb11dc5d7a920ef20f69e9ac397.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\1142fdc20109b3650e0d78ee00cf6d555998c5dc86ab853766fa1e37f6681462.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\1296fe6ecf06a792452124c924d1deb01e53c014040737c3741a976ac625b9a1.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\12eeaf27246381705d4ffc560bb4973079ba2cc26f6b6afeaaf4a86f636abd61.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\13102ae3ad129f5b75699b7585199598c7243146ff8f895e56bc090b4bbd8d54.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\131e6aee525ed55ebed9195a5ab66231190631e870381de8a3ec5e97936495e6.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\133cf2ba05563529474812dadeec60d814cd2e4baced24f19d5a5d2a6d01d2f0.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\14055aea2699219c9788572d77cc79583becc4e2c17ba9c5f8ef5f0f805dd32a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\144af3b647e0bf03efa81070e264ff14716d446d99ed45beb36a063f0c103751.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\144bf0048ce37106871e210c07f4439d28c54578397c69ac8ecc3d85fbfbc76a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\14f2ccb6d3df92aba0c03c905f5fdfe06bd40602952083dd1e36c1cf6610bb2c.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\159dc91f411940ed3d673d8e4c6fd381ecd7ab1f51cfe6d80771e35eafb88ea3.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\16d6ff2e28759f4d07bcc5826666acf6f3e4151ec2dbdc7b042e4863d51d425a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\18edfc52dbe87f5dc4782c3535fc918cf3a50b9846add1abbc1a623168b286bb.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\19ff3f8c675addf367a253c8760ccf506b70237b7f24b17b79f27aa8e3c2d2df.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\1a7d93d7556f5d004d3a54e0322c92b0c050ec71e7446f51c66c1de697123698.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\1b57e73795cec1784313f01d4631ea399af34396505cd5c7c172f7f77fa35e51.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\1be7d0b5ba124191e5a7721ddf523ab1ea64dd01f983d4abec22b8c886e9166c.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\1c30b85f2b4beeda91ae98be54dbfbdfadc6c6f87afadf0c100edcd7a2d0635f.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\1e20d8a66369267036b1010b41bc13c67de8bba8d78816515f107c486f76b4f5.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\1fd367464d458b21f96d389d471d0a99b2bbc491a3d3d1b5bf718351df61977a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\206c706f3a277667155921749984084202f278a6546247b7d4c361d12379488b.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\213b764fbad2ca1cfe65a98385b110852152de9d9611bd0deb29a03847ca8b76.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\21e7de895908ebf96e3f48087cdc20a08898ab2661fcbcd13911c7c1570c94b4.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\22af45bdc54591df99be981f7848ccd970a80cfbb656272ec9a08737a251af11.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\233045a25c43f18d2a862978acd3870dff5866230e5dfbf1524c5ece63311523.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\24c25503d8996fc1cf582bcf52b053210601584969aed8911810042560631622.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\25538d53b828b5eba7acbaa2e2d24796772ee1ea01b2139de4da70c15aebe873.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\28bf905a83614f574812b3acdb332f6b7c60b8e41abbcb1cfe4efd5894ac2955.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\2ad72f6dc854dc306675143ee0190c7b0c404e0c7fadd16d529c9d112def81b1.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\2af1face8e77d661b4f74f7d905c5277e90fb9c3815e681df7a42b5918123d97.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\2b0f921a886e03356cb4c749f5122dc857e2d2f32b235f9657c02a31890fa746.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\2d9e141df2cda5ef0237aefd863f8ba3fb84e57146abbe1cd19f8771ab3a4ee0.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\3027eaa7a1dffd92a01e7241ba4bfb669f5c397e13cb488eca155bd38207cfdc.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\3113a048b99ff7ae2f75a9145b28852479d851a6951391a55efe91187c6e9a4c.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\324fce5813bd073ad8dcd20a0431cd0f842ea37975e3125d8169598e595f188f.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\3261d5dd56c69f6e84b54e75e51c3a7688eb18e3b7ca53e54766a578ba0fd2ac.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\3266622033a50870e0597c9f630b87e4456e3d3b4f226a06f042423594495da1.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\33fcbbf0c6f5f0928cbcd320e648a3f7cda6b17a308b80093e635bf4d15a4b5d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\354277a10aed1bbb56d585e2f1e3c605d55e582c3e0f778f551c45337b24704a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\355e34381c56031862f8ca9768a2fb166131826879bebbc7c9d7b178a2bcbd38.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\371812e731d918a2ef2bdd85c2f1f3d511dbd195f22c038853b6cef453260c2c.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\3881a724356a641e06c0f868d5dfc9ef4929d3c9240adfd5bf3e1268b344f947.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\38a2b5f3c5970e162c2acc1a8cbbb58d9ec8c3092092179b8d09aee7bfb73732.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\38c9ead93f08bc300c8a5c845a5af8e9f47b80b69dbc84f632334cc02172b270.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\38eeae611d752dc5bf600bf023e8b5ae8c2d661c92df4296f35796ee5ebd7231.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\3afa71bafaa8174e6fed0ed89bf6cf6797f22df6a9d4d4c8fb1c5de2f5839c83.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\3bf6db886ab866c2323a96de662db1264314a141783c4b0d4bb926a860e1bb45.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\3c751a7035061be4e2de87dccca3f493b53ecc8a83e9e2095fc3713c56e73de9.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\3ddc9cbf71817a34893d6b1b3b42994106a286b7a5158168291c0a0a7ddc9683.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\3ee9613e6b43db3c4a0c05806dcac864cda47a8e38259f566116c0af01a9fdcd.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\3fbce596d1ebc2ccc5251ded2b0424162c7ba215216e44e7d74070c14419fa58.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\42ad743f525aea0c756b4bde420294a1db09956fd74047b161ae5c8bdc5bd630.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\44c11ba8f1f0b01174e56b2612532180ddbab9a1335b668d6473181ea35a03ef.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\4543ec6a41e9e2fe42718804cf9b22a38e0ef1e410ad8264856246b130b4d182.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\45d1c01f9ce927d78f3990d8dae87e265656c8aaa8900d57599a82b6a2c808a7.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\47f4811a5c59a041f9b09e49dbae587b95ffcefb7694b258ede69a85976c529b.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\48d020e007c4bda85dd20e4af38c8c6fdcd1fdb129114f26739e179de57c2eae.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\48e71a0fc64075cc9cf14803f164940d9e7b245d798901b43b42c511940ee07e.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\49b203867dba20dfb01874813e4295a212b9328dcad9732326c71805c0311dad.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\4a6db99ea40cf8d36069f59f1da83f1bac48c52b9ecd5f8ad91001393e090004.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\4a945a0eca43eceb72cd6836fa1212942e45fec83d17f80a5902bc638707ede8.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\4ad5a7cf815e89e76ea2bd7ad5e0ddbcb79faabc63fd9662a93762e2543b1bcd.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\4b29ffaeaaf2821eba281e225960962503e5c7adba841c68d738fa5ff4680b5a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\4cb5c954361f51dfbdccc14b2d1d9c0d9abc646ed611d0540b92a57454f031ea.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\4cbfbf2de300596f7ecc48b6c11b01d97efcaecffa47cd45f83a8b84eefe5d9b.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\4d70eace6102167591af43d957d10bca0585f18e3a958359e4ece94018b04465.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\4dd9676335e8c12f23b6f826cc77a978c24e0a26d6314e053ced9af0ff1e81fb.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\509bcccc60ad486e431a8dceeccbe45e9ce0ccce1928a78b7136c57d1d77cd55.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\50c0fc78c2c705df74b36e7c2d47f76b6b4452ca6349e9d4bd42ffd51aa97c89.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\51b02976d10204aa3dc599ba67b0eb09aee9095c90fd33b04f43375c28785139.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\5297c230c5307ce53e760d7d275c4f742f2c2cd6b5386fbb2097da924729e89d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\53ecba5eb81fe46f7cc3cfc1dc660a524438459d62437dc8bcec0149309d4bf8.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\5410586944a615985c0ef8d0c02c1abd675665c21f179d1a3c8df9fba0179fb7.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\5481811ccb223508af2631857234d8d4c010aaaa930b8a6d752e42603f431298.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\55250b989a24bfcfcb8d978659efaf95bfd19697e369cbdae5e99fc76f5eb78e.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\5608d6223ad1f5a27b46cd68586f8508b963eb1a1dd7baf5305cb3d4cf7d8f30.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\573b3a435c53091a6d4d301ee1c8aae45743448a1bec2477037137f10ac2f6ad.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\577d6a1b42149e62e752a1bab46ff698fc5c44c68a709f2d43e99ff0dcba28d5.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\594ca1d25e9317c3a7fca32b468509b729484c6be6b41c0f60975271af1cab1b.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\598245dbd9a6ca7d357c74ba86053074f9b00b25743dc38a7b9f674df017793a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\5af588ba4b9e415e69fb2a15567734311ff719c784affc38169e0a7d0d1f6669.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\5ba6a71ba57010194451024e135284ce703905d5c54a36d3e3a101cf36dbf83f.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\5bafb7bcc89a384100f035d0adb5ee5388d1bdbecf665049c666f3556b976775.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\5c8197498a3b284a6c2103c1807e96117d06a85ae816d2f5d0a8aa296da1f67b.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\5d19515954b982dd874070edd27d441ea17352cdaace02cc94639478e7760fac.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\5d1aa86e1e1e965154ae5bf3ecbb0f2202d424d73f37ee701eae2dd627a19bb5.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\5d6e4239122abddf0338a118d6f796bde1319cf8af305281ad5bb46a168453fe.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\5e2f20a5337f33a6a15d7167aac6bcff292d3322f763fcdedd342e0325fd63cb.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\5ed1d54fd27c4522a01e4198ebf3e4011166908e7be7e2bca0af8253e4396b08.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\643d4e2311d59e5180f260bdce5025f6a9045c8afd84baf0e27f74bfed00f96b.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\66cdfe0ba567241fc6b4c795f7cf86a47a550754e356cb5c53bca5c8fe33bd88.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\674b7993cdf630a39ba160ec0e7da39111b487d644586ca7b09872ca03182f01.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\67860ded060a59b70b117915e0082424be0b18e846942c77a7c1af84ef766f39.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\67d087a2f09076c035d09ea64cea9482c93f31ca5881229bee998ea521d09ed8.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\67f28a00dd505eeaab4cb7f1f119b686c102726827bc8f7b1347e1b4ab5d51b9.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\6a47bde6e742a60219c9afa5dca30373d17222d6e3d59c488f53f6f92b0abe6d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\6ba7f84b696c10d07537138a82b4a0e6877b4ae1519f1dfba76c69c5c2a6d17a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\6da1d05717407f4558a478a16098135a4ce5bf880c963a8c7250eb488bc48063.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\6ddbf6a640919720ace8fb6f2ce98dc7927b0ec099b3f89f75799b9b41ad9dc3.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\6e146bf8ab091edee8a8af50d9ae2bed3cf011710c7f20cc6dbf0a28848ad5bb.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\6fe7dfac226d46571d701979b37325d4edacac131a25ea648c1181cc39ccb3c0.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\71c793e9e3799081c66b4da130e25e202c53106aadb0aa572bca2c26dc128b6d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\71e1df3de498e9a4fbb3bf16f8773d591043a445ffcbee708a501d10bf5a3bf3.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\722155812a1145765317a78dda8f12c1765cfb6ddd2501c9073e044d0b90ed61.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\7355f512c047d2c6763d5b3c058e5b65c4fca3895a34d7414b0e50b9def51d07.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\74c7d2fbb8dce8da302a22d71bdc974cda3d7420b0a78e19855cf8bc4ebfbd9e.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\74f017480aa01f0d3d5c7af5874df6b148be6fff9a5c090dbfaaa1f8ee117bf5.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\763ffd1ebd6a869f3beeab287aab77525b8ada8279bd1d3c41f2d8716788ddd6.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\76dee6a48bde01acf1ea35f959fc49f1d74cfe0c580abdff85c5c033c39f12d4.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\76ecdf05a8d1751badb3c5a16911d47223eb62b3a1c1069f664d09d071011785.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\795d1a6bcad8446c8efad1a2aa182f1a7d7f2cd05a099474b96099c8e904cd16.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\795d8fea35126fdc5349a91681838293d6e714239b1981de56337570ee63cf1a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\7a2d8bd28fbc9200010d37e31e9c36b3debee9effd6327dad82130264f5870cc.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\7b80d6a62a37ddd0d5e8d86528e3f83812f1209f62c87f19311467dc049e6257.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\7b9f9bb0351abe95042701d2a03fc02cce99d202af21c85054b9293373564a55.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\7c9b093673103c9b8a1cac032341b7f32a0b54a66fcbc2c504dcb3b8c420a97b.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\7cae416af167b5bcffb22261bc814c90449683206fc08dc456a6c0ba9c457e33.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\7d2597ef3efb22db1ce25af500946b2951c7334a732ee733dfc39fd00876d5e2.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\7d772466c866a4ab1f9260906fc19aebf2817bdac4b7c1212e297e9df37d7c4a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\7dec50b02a076bdaf5329f2bd294e7651bc7e7d348aa84970ed5ea1c7bdbed70.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\7f34f0796f50d8c070af89c8cb2556253647f2eb08431c971c0602f3941bd7b5.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\800d9264650ef95010b2a1a20c20c07bb0bdf346f86d1be1e041b29f0e06f7f2.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\825947a4208c28ff5cef5951f2c54e6eb06dfa49dd8a0ad6cc5e47488029c030.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\829eced2ca7a7d8f8e3e358bd989d2580cb9cefd4e751be889de4d135fabef90.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\8330d22943955726228d0980f0fb5fcec88667290a8e97dbaa1ddc9c956ba969.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\83e56adae6fc818aecda987ea2103491690f4650577a84046ada2d8035b3b886.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\844bc0f2e632cdf16e68d6cdd9e09b60945bfcd95a9e548a04c2daaa449280cd.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\8532d0370eb2b2c9f89a96f0f092f8f30c63db23f63783c20c1f3812184112e7.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\86d539febbaadb68142e28c59298a32fd6e0a0c1e1d8838727e06c589241b01d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\87f4a91cbff18135182a573bd4d2044bed4f6f78485ccf97e20c553164440dbe.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\88aca214dc4f3016e5969ecd1d9ec3f3e5e2ede91021cfe6a57b1e312887a5c2.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\88b472ef2bcfc0e5daf0a384914af967450e47f5070effb3b62d67eb021f4716.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\88b6e33d79070d5ef74cc741f9a7d6fd3963ded1c2487cca9e89a81f38b3439d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\89c5c21b9b1adbc24215355d639e2db56e0f6aec25002fe602f528bb54be7713.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\8cb8057451e8bd4b90747fb8ce111b2bf5962bf14fc9380c95921c0d904dea3c.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\8f508b39fccc3f6f2d7a2e2b281d96e6fd8480527bd32127f034071cb715647d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\8f6476b25e705c996e96bd4b584afb5551ad80443dc2d3726e587c90aea09150.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\8fcc79de5ae60e2173e22a3d0d6d42c69f18044c957d63f35ddf6d5f77f644c9.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\913a2a7d1c12cd073f1b02cc299c9dc24b4bfd4bb6c30eb1b165116b4b14ce51.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\9159a782d7806128c85a3ab8dc03f4fa529e6a0872255efa0cff011c42b4c05b.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\923eaac62ffc163fbf2d7abb757b91b396323ec1370083a87c5f5b2ca0f392a5.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\929ec23c6fe2a102beb2bc2dc74c25aeb11715f4c3e20be6d60c41fc246ed37e.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\9308254e915c97ec0f84ddf894cc4ec2eccc33dfd85a9b8fb315c72423bb5dab.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\93eb3e0fc93c5fac51ccc98821b179abb2ad201e8be784d2b0e7329b97f314e9.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\94160895fd73af13d9a521e8d4b4beaed180dd87f5d0d9520efdfd4d6f5f9856.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\941bb4a1bc4ef517139b93f53f1f632c87d019fab3c3e5d5cab0e45339caa534.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\9428be8bdafbb9a4cb6d7061409ff2c38874f24c602dd51a19440e028cb9e3c4.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\94ab68764f596e953142e60523461ca68c522338de49b46e2720926412bd984f.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\958bf876c611001bbf7af81dd562f4135fd3f0978cc1620be90c8f9a94a8ad42.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\96df26e37fcb50724f61a9259de019cfb1f407b36cd317139b0f8c71679c6d0a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\983804da8b55e4f73ece3dc1d6b82ab2581eb89764006c00d3871cd6af459014.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\9875dd10724acf8c8156aad1dae661d1acf83438efcbe74838f811e0cc2c854c.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\992b203f086bf2cb55ef44b35911cfd70dbc4b2d82cba751da14cbe61ff39f4b.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\9b75a581d839589ba80367a73b6effba950d84fd651d8f07313aa5463da83bd5.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\9c605d141aecb7e422ebb29accfafa187f5604d36ef290044029dd26ec3c0f28.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\9cec155f8dc2f337c0fedc41e4898fb5e20fd5fbbd495dd0bd8337bf4fa28220.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\9e28f1d825239fd8c1f01153bb1ab53efa7f010f6db6adbd50d0f3f6f831df38.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\9f1e2791b74042ee7a2b2501d70e9b89a9188930f6157989985ae2440f18b30d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\9fc00f85f8bcc6c64feceb442eff1355a1ca4506d4ebac9b7f3969d38fa2e25d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\a03702882d0a594e2fca696aa8145e04073c3b5cb6a6898e76fddb6cf630f494.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\a0b76295729e49591312e9cec634adc79625bb41a889b92ead52d34246f8e7e1.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\a1c256c585532c004c7bee56b592e85e1495980e6726e15cc2f337839f8aeb0a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\a24c4f776cbe1d890c277360a8eaa26510b26d95e69a646d562835595cbd6d85.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\a252ed50f85d9867aaf5c301873c02e9458db6312d7114df451f8ed52cfc3ce9.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\a2f20a431224b8c3803155c317c5d81cfc5bb8ec77dbab41a2b51cb6afc8d4eb.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\a4ffae6ebfdca5d7d03c0c8cb55785ce0e9cc9fae35e2b215dc346c8fd4ca0c0.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\a584968771cdfb6edb8640d80550ce2092b90d35ec703168100723eb6c7a7d45.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\a74fc899ada96e682ace917effe97cbb1dc0255e4c31c0223a49dc3ce6488b32.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\aa9394f03e6f3e232a541e07db42f6cce600ca7b8188b21261e3357eb0c545c4.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\aac384258b6ba2e16a0fc8fdbec138207a6c528de5082231489d78ad920a2df4.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\ae60f253bdd34f229494accf4a417187756bfb2cef3c7d5cc20a0608f8dacd66.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\b04ec28384bc8b3c4e75c7a8a3a532d42da0b2d181db57482fe428915902e204.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\b17bb0cde16dc7a959ab39a013d1f297acd30b15e5993339cae9b6b61aaa72b6.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\b2d74fedf57ade0556649a09f3701309d7ec7fa74f13317af6b72107b35562cf.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\b34ad0317d9dbfcbc32c94cbb3afd7528b53eacaa6ccb249a85fb323af013bff.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\b59e385a1ce3605ffc7f56416813848beed8c8d543754a49aa87b0fdf492f886.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\b5f6401a0b9fe7333c7116278a01bc278b20e32a7e5e6a526cea52bafd66e25a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\b615a0d0097a2f2c17a93128962a330b75dfac3cd644ef515ebb2fd922fc2564.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\b87dcd75696e1ca8461d604cba4885c00be3ce3767edac34bf7de72c678fbbcd.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\b9810ff23e59535630ede13189827860bb49ac0c5810fd0b2929659532f9072a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\bccb52e53ff2654a0ce7e6707efa1f5299503adbeb8948627a6e41d6fefb3287.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\bd5710935d05761046988a3050503d224c40cc93aedbefa58e85a8c2ecff9d66.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\be2bd5bf88a16e9e5752d4f33f856e91f78b2bc8fe1bf4f2180032f93a6c81f7.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\bfb46d0de062e41e979c516ae3595263acdab9348bfee2fff224fcd21aa3debe.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c01d56389a8ddb7961cc930b7c1d53e6f531122d878ce25269fbd00d85a700de.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c0dbd0817c88a4eb2c612ca8404105ecd2cb69098864b46da27311f28002a65f.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c11bdb261b2b3b58438cdcd9b16a3f05e995ef243bb2259b3a33d5889e73651f.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c2c8537e18f1fa6a98758158b14cc1990d67ff4af55822a99bbae358ad94697d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c35270724165f5edfe4cade10f8b4e906fc3f00f8b2d3d05280b6f3791469c90.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c3c44854d68333de5d68e88490a24eb2187de67b2e793045f7a6e6a630bb5826.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c3f4371abd76baa537b27a27666eaf084aafdf6b20f0faf385fe2998c00e331a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c4087b651981857715498998b82681445bf214359e746f3055f571de0cebc146.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c4dee7d93ef2487e504fa9175303f42800741c5b219f987eb2cfb92aa8fb7690.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c4efaaad568bb577090fbcee1381ac37e34ef91f213958ab3040f22ee9adbfcd.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c50c75b6c35820365ba0e5208ed21bd5cc83f28947bc62c1ee8b984774ace9af.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c5af8d343846bfdc216bf8b2b98204c90e654a8390770873f74d541cbbff60cd.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c61acb3b131b2bacad33b1410144d06d49f57949e9357b8296fefd7f57c6ad19.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c6b2b6adafa309042dcf2cd0e0226bfd3ff2ed9de15282b133f615c715979313.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c6fc42cc980ae61d135ba6574a84a85492b2745f380504d9d0b8e01bc26ec5d2.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c88b5877d9dd5910e51e0f2321e2c9fd74c3f1e1f018d55bb78c5c1967d31ce2.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\c9b93948e0fa436e21599b42efb246b2878c2c3915fbfd70258fc40845c50301.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\ca6bed6f27eeeb4b03be3a3540bb488991175b0a662ae76125b91888e309a23c.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\caf4b3917ec95f49e9281f436b97c6615b77ad89e73c7e847efa9efa2b50c51e.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\cb2c1868283c9b112cef6c44004a97ab05c67835fd45ae8f81ad85f715ae781f.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\cc36266d7ed919e09c5a98e4a490b25f7b69a796a32cf10bf000822f25f4123e.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\cd7ce91d2a6f7ca6114a78844be68041ca6238ea401db4b64c54fa5e503b5e46.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\cec1eb24b0ad08aa7d7a44524c83a12b6c12ec116a15a374a631725880b39ba3.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\cee6e3bd45d7efc22f82cdbb52e845f1f97e10093085adca6559b8fb3faddc7b.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\cf49a9588c075a3027f2f5bae9bd262defc2ef5a39af31d5424abc2aeb7e97d1.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\d089c6c4b5307d824b8c16661683781bc77bd68da793a909d784a8708bfc6060.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\d366d451d569943ef3c5a5d039ab017ab98b2d5602472a8634ae48f65840efdc.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\d3d3c0b4f0fca33fd23191b1145a7865c655f2e6c19fb09c80e1c65e47b03449.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\d49682aa7840987c48bec2d0cf05e9dcf754af6bef2b72a9bae40a8a907003b3.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\d4b328869d84ded2c47ad5d1210e6e98182d5099bf7dc6ee11a8fce6844170b6.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\d5d881763c7bc9a7759bf65f544d802a73f5c8d0c579738b65925ee3961940ee.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\d7652685fb7d3af3dd7b50f4e3bf00c082766ed49fb5b9b32fd71e463e4d776c.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\d7882938a5ea2ac99b8519f7e3ba3fb6f9889bfc1f43a9a25ecc83bc01717aa3.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\d7dff39db637f26b7e36a670a96b332fb858cb93138d8af4a91f54268125a4a8.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\d9ad34d44112295fb51658030c28b66e5297a097ce574486018b9a3ca712737c.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\d9d0e624f6804c11bad98e1ab60c330cc4f70ab578bb03e04b4ddf95475437da.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\da5b22f4c732600969eed20d78830351f02a996675d1a2a5b53c16bb414c6465.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\dda3592e33a1358cb7bcd45e0a7936f4b89aff12eb651dbaa83ae0b9ca138f49.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\de5b5804d80772f73151edbf2e2411ccd0b42d0cd18fd58b56ac4ca8ac97d38a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\de7a772b1d68d93c922435c7b6d6bd646408f0e2fee6dbd1425c3f5eb3fa6d24.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\de82e754ecdf2e9d688678c9e0669c1ed448814551c553f32f9763bbc8ab98a8.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\e027de9afd17290b4cbb06c8986316901f22381d8743e76debeda09c1ce84f89.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\e05af4e04bd2cf16c2d5f329fed9be4b9d6ee6865943b62224f9e852e29031a2.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\e0779cc3db55cb2f9d53c7b9b49e14d7decce2a980cbe22e991c8355a907d40a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\e43333e75c8ea28cf976d9c14dfccb464f935ac1a05d706dd3ca3c982cc86ea5.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\e4cf4cd0a057064214c0828a39808646dd7dc790b8222a82b96fea99614bb875.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\e507ce6eaec246a41eba220ad521ec0ef54e6b84cd4e851a9b0de281528ac79c.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\e5bd83ff0a298e911a8d0f2160b4a5abcb4784fc1878bdb90df5e12e3bb5f060.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\e5f0c72e9b54ac36b7a9a6aaa94c31dd2bdbc8f254d1001a2963b071dfd7eff5.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\e64af96021aafd7e597a59099e154b6d5a9b638d9ece550b7473e3e80408666c.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\e928d44383887c8ee6091f65842254428addbcd07cdecf90601401ebd6ed611a.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\e96ad067db2ecc6655bfefe54cfd4f3f634832e494c2fd6fc358ed6d87a63f1b.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\e9ab0f5a6c615b0ff6e5dfe2965be2d028b76a8d914ebc3975ce807dd3bb05cc.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\ebc0c78737287104b0540069d948fae6609c14b9a04cbeed27ece8bf051961b3.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\ed49730d5257b4372c7e2dcfa47a1d194c846c0569f3b82f4d593fbad6b6b8d8.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\f0e4eb14c791f9daec2c18a79a4006f6c431d681948ea11c36c7f5bbb9a1d144.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\f17ee7e4c89164ba31afd0b3a2ddb7cfd55fb9cc45fcc0bb4516cfcd0d4ddcc4.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\f305624d17c746fe73136472266480ee9f0e01175e5e031dc45a71a071f78bf5.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\f395850698170c971da1977714c7866e35ef9f34e39ecaef1c728fdc19e102de.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\f3f96f22a19d3ba665ec741a2575e27928185f853c882cca7b68b911328b2eb5.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\f4ef485e44061171bedcac25865a5773cfcc58f3fef0d6ae8ba4256fc522ef8d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\f4fbd60cd72b7300ff12bacd0eba95233dbd2f1a0453d258ec886b90db25a839.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\f57500cac87356b1f832028e23100050ca3bd7d76d959072841321c3ca6a92d0.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\f5e3a7601318b3bd4683bf9ff006e96f8585751459bad1f0210236062d3b0f33.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\f6e9a9556bbcc015463200faac0bc3d78ac6cf691041f5f92ceb4c1c79f4ed01.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\f7225a2796b634d32b97fc225b8c017a6a4430e726a03b91229a853ba4ef4a9d.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\f91265f851218659bc803cd9e1677ffcd548b662eca050d064474f606a3565ae.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\f974c7c324fb0b5f1ce72c1e1fa136052c66d26be24650337d23bc41bc20dcfc.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\fbc83d0e3b4d5c48fa1151d3b48fc77791e400b318c334df3a2b4f19473d194f.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\fe77c6e4d7c409e6e01ff53d7ffe2157df398c8a587450896bd6471df87f46fe.json" />
+    <None Include="B3App\.angular\cache\15.2.7\babel-webpack\ff03fd3a67d8e253fb82ed002f3dad0f1a1fee8bfef725e261517e5cfeb7ce7d.json" />
+    <None Include="B3App\angular.json" />
+    <None Include="B3App\package-lock.json" />
+    <None Include="B3App\package.json" />
+    <None Include="B3App\tsconfig.app.json" />
+    <None Include="B3App\tsconfig.json" />
+    <None Include="B3App\tsconfig.spec.json" />
+  </ItemGroup>
+  <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+    <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+  </Target>
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build -- --configuration production" />
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="$(SpaRoot)dist\**; $(SpaRoot)dist-server\**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>wwwroot\%(RecursiveDir)%(FileName)%(Extension)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+</Project>
