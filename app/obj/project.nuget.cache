@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jR73wjmsZrI=",
+  "dgSpecHash": "VI1kILBM3yQ=",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\Nova pasta\\app\\B3.WebApp.csproj",
+  "projectFilePath": "D:\\GitHub\\b3_teste\\app\\B3.WebApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rafa_\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\7.0.9\\microsoft.aspnetcore.spaproxy.7.0.9.nupkg.sha512"
+    "D:\\.nuget\\microsoft.aspnetcore.spaproxy\\7.0.9\\microsoft.aspnetcore.spaproxy.7.0.9.nupkg.sha512"
   ],
   "logs": []
 }

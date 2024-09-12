@@ -2,7 +2,7 @@
 "SpaProxyServer": {
 "ServerUrl": "https://localhost:44487",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "D:\\GitHub\\Nova pasta\\app\\B3App\\",
+"WorkingDirectory": "D:\\GitHub\\b3_teste\\app\\B3App\\",
 "MaxTimeoutInSeconds": "120"
 }
 }

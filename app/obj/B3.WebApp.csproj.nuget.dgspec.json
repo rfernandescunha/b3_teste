@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Nova pasta\\app\\B3.WebApp.csproj": {}
+    "D:\\GitHub\\b3_teste\\app\\B3.WebApp.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Nova pasta\\app\\B3.WebApp.csproj": {
+    "D:\\GitHub\\b3_teste\\app\\B3.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Nova pasta\\app\\B3.WebApp.csproj",
+        "projectUniqueName": "D:\\GitHub\\b3_teste\\app\\B3.WebApp.csproj",
         "projectName": "B3.WebApp",
-        "projectPath": "D:\\GitHub\\Nova pasta\\app\\B3.WebApp.csproj",
-        "packagesPath": "C:\\Users\\rafa_\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Nova pasta\\app\\obj\\",
+        "projectPath": "D:\\GitHub\\b3_teste\\app\\B3.WebApp.csproj",
+        "packagesPath": "D:\\.nuget",
+        "outputPath": "D:\\GitHub\\b3_teste\\app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rafa_\\AppData\\Roaming\\NuGet\\NuGet.Config",
